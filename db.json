@@ -1,0 +1,111 @@
+{
+  "projects": [
+    {
+      "name": "Morango",
+      "budget": "15000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 10732,
+      "services": [
+        {
+          "name": "Plantar",
+          "description": "Plantando",
+          "cost": "4999",
+          "id": "785dffe7-bb5f-4d4b-a9e1-268c1cfc02a9"
+        },
+        {
+          "name": "Plantar",
+          "description": "Plantando",
+          "cost": "5000",
+          "id": "6b0a28fa-eebe-46b1-a944-d810b6eaf62a"
+        },
+        {
+          "name": "Colher",
+          "cost": "100",
+          "description": "colher",
+          "id": "9efd1b0e-7efa-4938-b4c3-c9ba808f75f6"
+        },
+        {
+          "name": "Colher 2",
+          "cost": "300",
+          "description": "colher 2",
+          "id": "75c9b927-4217-4712-a909-aacaf8ff17ef"
+        },
+        {
+          "name": "Guardar",
+          "cost": "200",
+          "description": "Guardar",
+          "id": "0d9ebfec-3104-417c-995e-2f4d3dffeab6"
+        },
+        {
+          "name": "Tste",
+          "cost": "133",
+          "description": "teste",
+          "id": "955468fb-86cc-4352-af3b-743bd4869edb"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "name": "Jabuticaba",
+      "budget": "15000",
+      "cost": 12266,
+      "services": [
+        {
+          "name": "Plantar",
+          "cost": "12000",
+          "description": "plantar",
+          "id": "f7b63ec1-4b7b-4d38-b077-1d035e79251e"
+        },
+        {
+          "name": "colher",
+          "cost": "144",
+          "description": "colher",
+          "id": "7679d8df-0dfe-4a72-bf51-dfdd615796eb"
+        },
+        {
+          "name": "Guardar",
+          "cost": "122",
+          "description": "Guardar",
+          "id": "9010a8b1-b434-468c-913a-95ca5feefabb"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "name": "Acai",
+      "budget": "15000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": null,
+      "services": [],
+      "id": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
