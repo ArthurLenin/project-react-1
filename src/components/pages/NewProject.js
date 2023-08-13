@@ -5,6 +5,8 @@ import ProjectForm from '../project/ProjectForm'
 
 function NewProject() {
 
+    const port = process.env.PORT || 3001;
+
     const navigate = useNavigate()
 
     function createPost(project) {

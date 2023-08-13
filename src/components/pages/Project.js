@@ -11,6 +11,8 @@ import {parse, v4 as uuidv4} from 'uuid'
 
 function Project() {
 
+    const port = process.env.PORT || 3001;
+
     const {id} = useParams()
     
     const [project, setProject] = useState([])

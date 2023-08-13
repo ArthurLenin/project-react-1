@@ -8,6 +8,8 @@ import ProjectCard from '../project/ProjectCard'
 import Loading from '../layout/Loading'
 
 function Projects() {
+
+    const port = process.env.PORT || 3001;
     const [projects, setProjects] = useState([])
     const [removeLoading,setRemoveLoading] = useState(false)
     const [projectMessage, setProjectMessage] = useState('')
